@@ -16,10 +16,10 @@
 
 - Working on slow winter nights when I basically got paid to mess around with my friends at work
 
-5)What I didn't enjoy about it 
+5) What I didn't enjoy about it 
 
 - Working 12 hour shifts without a/c in the summer
 
-6)If I were to give it a letter grade
+6) If I were to give it a letter grade
 
 - I would give it a B
