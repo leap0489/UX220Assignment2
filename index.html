@@ -10,17 +10,15 @@
 
     <style>
         :root {
-            --main-background: #AFE9E5;
-            --main-foreground: #333333;
+            --main-background: #44007A;
+            --main-foreground: #DDE0FF;
             --pane-padding: 5px 42px;
-            --nav-background: #3066BE;
-            --nav-color: #F7F7FF
+            --header-font: 'Montserrat', sans-serif;
+            --body-font: 'Playfair Display', serif
         }
 
         body {
-            background-color: var(--main-background);
-            color: var(--main-foreground);
-            font-family: 'Playfair Display', serif;
+            font-family: var(--body-font)
 
         }
 
@@ -28,12 +26,22 @@
         h2,
         h3,
         h4 {
-            font-family: 'Montserrat', sans-serif;
+            font-family: var(--header-font)
         }
 
-        nav.bg-dark{
-            background-color: var(--nav-background)!important;
+        nav.bg-dark {
+            background-color: var(--main-background)!important;
         }
+        a.navbar-dark, a.navbar-brand{
+             color: var(--main-foreground) !important;
+             font-family: var(--header-font)
+             }
+
+        .nav-item {  
+            color: var(--main-foreground) !important; 
+            }
+        
+            
     
         
     </style>
