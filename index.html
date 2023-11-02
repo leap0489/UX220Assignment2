@@ -11,10 +11,11 @@
     <style>
         :root {
             --main-background: #44007A;
-            --main-foreground: #DDE0FF;
+            --main-foreground: #E7E9FC;
             --pane-padding: 5px 42px;
             --header-font: 'Montserrat', sans-serif;
             --body-font: 'Roboto Slab', serif;
+            --bg-gradient: linear-gradient(#00588F, #46237A)
         }
 
         body {
@@ -30,6 +31,7 @@
 
         nav.bg-dark {
             background-color: var(--main-background) !important;
+            background-image: var(--bg-gradient)
         }
 
         a.navbar-brand {
@@ -44,6 +46,7 @@
 
         footer.navbar {
             background-color: var(--main-background) !important;
+            background-image: var(--bg-gradient);
             color: var(--main-foreground) !important;
             font-family: var(--header-font);
         }
