@@ -13,13 +13,15 @@
             --main-background: #AFE9E5;
             --main-foreground: #333333;
             --pane-padding: 5px 42px;
+            --nav-background: #3066BE;
+            --nav-color: #F7F7FF
         }
 
         body {
             background-color: var(--main-background);
-            foreground-color: var(--main-foreground);
+            color: var(--main-foreground);
             font-family: 'Playfair Display', serif;
-            
+
         }
 
         h1,
@@ -29,12 +31,17 @@
             font-family: 'Montserrat', sans-serif;
         }
 
+        nav.bg-dark{
+            background-color: var(--nav-background)!important;
+        }
+    
+        
     </style>
 </head>
 
 <body>
     <header>
-        <nav class= "navbar navbar-expand-md navbar-dark bg-dark"=>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark"=>
             <a class="navbar-brand" href="#">Laynol Eap</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
                 aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
