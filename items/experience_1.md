@@ -22,4 +22,4 @@
 
 6)If I were to give it a letter grade
 
-- I would give it a b
+- I would give it a B
