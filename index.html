@@ -12,23 +12,34 @@
         :root {
             --main-background: #44007A;
             --main-foreground: #E7E9FC;
-            --padding: 5px 42px;
+            --padding-title: 108px 0px;
+            --padding-header: 108px;
             --header-font: 'Montserrat', sans-serif;
             --body-font: 'Roboto Slab', serif;
             --bg-gradient: linear-gradient(#00588F, #46237A);
-            --button-color: 
+            --button-color: #001C7F
         }
+
+        main {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto
+            }
 
         body {
-            font-family: var(--body-font)
+            font-family: var(--body-font);
+        
         }
 
-        h1,
-        h2,
-        h3,
-        h4 {
+        h1{
             font-family: var(--header-font);
-        
+            padding: var(--padding-title);
+            text-align: center
+            }
+      
+        h3{
+            font-family: var(--header-font);
+            padding-top: var(--padding-header)
         }
 
         nav.bg-dark {
