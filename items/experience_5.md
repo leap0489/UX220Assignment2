@@ -11,11 +11,11 @@
 3) What was good about it
 
 - I learned to work under pressure as fixing decorating mistakes is not easy
-- I learned to plan things in advance which is needed especially when spacing writing on top of acake 
+- I learned to plan things in advance which is needed especially when spacing writing on top of a cake 
 
 4) My favourite memory
 
-- Makinga heart shaped cake covered in roses for my girlfriend for valentines day
+- Making a heart shaped cake covered in roses for my girlfriend for valentines day
 
 5) What I didn't enjoy about it 
 

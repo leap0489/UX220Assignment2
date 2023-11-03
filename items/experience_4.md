@@ -10,11 +10,11 @@
 
 3) What was good about it
 
-- I learned resilience as I kept psuhing to get better even though I sounded so bad at the beginning
+- I learned resilience as I kept pushing to get better even though I sounded so bad at the beginning
 
 4) My favourite memory
 
-- Going to chicago for a music competition
+- Going to Chicago for a music competition
 
 5) What I didn't enjoy about it 
 
