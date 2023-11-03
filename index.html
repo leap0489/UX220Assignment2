@@ -17,29 +17,35 @@
             --header-font: 'Montserrat', sans-serif;
             --body-font: 'Roboto Slab', serif;
             --bg-gradient: linear-gradient(#00588F, #46237A);
-            --button-color: #001C7F
+            --button-color: #001C7F;
+            --content-width: 80%;
+            --content-margin: auto;
+            --body-background: #F7F7F7;
+            --body-color: #272727
         }
 
         main {
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto
+            width: var(--content-width);
+            margin-left: var(--content-margin);
+            margin-right: var(--content-margin)
             }
 
         body {
             font-family: var(--body-font);
+            background-color: var(--body-background);
+            color: var(--body-color)
         
         }
 
         h1{
             font-family: var(--header-font);
             padding: var(--padding-title);
-            text-align: center
+            text-align: center;
             }
       
         h3{
             font-family: var(--header-font);
-            padding-top: var(--padding-header)
+            padding-top: var(--padding-header);
         }
 
         nav.bg-dark {
@@ -48,12 +54,12 @@
 
         a.navbar-brand {
             color: var(--main-foreground) !important;
-            font-family: var(--header-font)
+            font-family: var(--header-font);
         }
 
         a.nav-link {
             color: var(--main-foreground) !important;
-            font-family: var(--header-font)
+            font-family: var(--header-font);
         }
 
         footer.navbar {
@@ -86,7 +92,7 @@
                 </ul>
             </div>
         </nav>
-        <h1>Assignment 2</h1>
+        <h1>5 Experiences That Helped Form Me</h1>
     </header>
     <main>
         <x-markdown2html src="items/experience_1.md" id="section_1"></x-markdown2html>
